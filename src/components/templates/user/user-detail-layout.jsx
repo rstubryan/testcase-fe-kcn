@@ -69,6 +69,12 @@ export default function UserDetailLayout({ children, isLoading }) {
         </Link>
 
         {isLoading ? <UserDetailSkeleton /> : children}
+
+        <div className="mt-8 text-center">
+          <Link href="/" className="text-blue-600 hover:underline inline-block">
+            Back to Home
+          </Link>
+        </div>
       </div>
     </ContainerLayout>
   );

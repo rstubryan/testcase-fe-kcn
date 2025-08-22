@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Typography } from "@/components/atoms/typography/typography";
 import { Skeleton } from "@/components/atoms/skeleton/skeleton";
 import {
@@ -44,6 +45,12 @@ export default function UserLayout({ children, isLoading }) {
         </div>
 
         {isLoading ? <UsersSkeleton /> : children}
+
+        <div className="mt-8 text-center">
+          <Link href="/" className="text-blue-600 hover:underline inline-block">
+            Back to Home
+          </Link>
+        </div>
       </div>
     </ContainerLayout>
   );

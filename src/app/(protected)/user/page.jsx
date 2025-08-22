@@ -70,12 +70,12 @@ export default async function UsersPage() {
             <CardFooter className="border-t border-gray-200 justify-end">
               <Link
                 href={`/user/${user.id}`}
-                className="flex items-center text-blue-600 hover:text-blue-800 gap-1"
+                className="px-4 py-2 text-sm font-medium text-blue-600 bg-blue-50 rounded-md hover:bg-blue-100 flex items-center"
               >
-                <span>View Details</span>
+                View Details
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4"
+                  className="h-4 w-4 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
