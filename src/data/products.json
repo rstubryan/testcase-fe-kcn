@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 14 Pro",
+    "price": 999,
+    "category": "Electronics",
+    "description": "Apple's latest flagship smartphone with advanced camera system",
+    "image": "https://example.com/iphone14.jpg",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S23",
+    "price": 899,
+    "category": "Electronics",
+    "description": "Samsung's premium smartphone with high-end specifications",
+    "image": "https://example.com/galaxys23.jpg",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Sony WH-1000XM5",
+    "price": 349,
+    "category": "Audio",
+    "description": "Premium noise cancelling headphones with exceptional sound quality",
+    "image": "https://example.com/sonywh1000xm5.jpg",
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "MacBook Pro 16",
+    "price": 2499,
+    "category": "Computers",
+    "description": "Powerful laptop for professionals with M2 Pro chip",
+    "image": "https://example.com/macbookpro.jpg",
+    "inStock": false
+  },
+  {
+    "id": 5,
+    "name": "Kindle Paperwhite",
+    "price": 139,
+    "category": "Reading",
+    "description": "E-reader with front light and weeks of battery life",
+    "image": "https://example.com/kindle.jpg",
+    "inStock": true
+  }
+]
