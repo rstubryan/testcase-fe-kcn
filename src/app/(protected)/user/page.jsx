@@ -8,6 +8,7 @@ import {
   CardFooter,
 } from "@/components/atoms/card/card";
 import UserLayout from "@/components/templates/user/user-layout";
+import { Badge } from "@/components/atoms/badge/badge";
 
 export default async function UsersPage() {
   const users = await getAllUsers();
@@ -22,9 +23,9 @@ export default async function UsersPage() {
                 {user.name}
               </Typography>
             </CardHeader>
-            <CardContent className="mt-4 space-y-2">
+            <CardContent className="space-y-2">
               <Typography variant="secondary" size="sm">
-                <span className="font-medium">@{user.username}</span>
+                <Badge>@{user.username}</Badge>
               </Typography>
               <Typography
                 variant="secondary"

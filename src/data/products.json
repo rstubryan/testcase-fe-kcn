@@ -1,47 +1,42 @@
 [
   {
     "id": 1,
-    "name": "iPhone 14 Pro",
-    "price": 999,
-    "category": "Electronics",
-    "description": "Apple's latest flagship smartphone with advanced camera system",
-    "image": "https://example.com/iphone14.jpg",
+    "name": "Samsung Galaxy A54",
+    "price": 4999000,
+    "category": "Smartphone",
+    "description": "Mid-range smartphone popular in Indonesia with excellent camera and battery life",
     "inStock": true
   },
   {
     "id": 2,
-    "name": "Samsung Galaxy S23",
-    "price": 899,
-    "category": "Electronics",
-    "description": "Samsung's premium smartphone with high-end specifications",
-    "image": "https://example.com/galaxys23.jpg",
+    "name": "Xiaomi Redmi Note 12",
+    "price": 2799000,
+    "category": "Smartphone",
+    "description": "Budget-friendly smartphone with good performance and large display",
     "inStock": true
   },
   {
     "id": 3,
-    "name": "Sony WH-1000XM5",
-    "price": 349,
-    "category": "Audio",
-    "description": "Premium noise cancelling headphones with exceptional sound quality",
-    "image": "https://example.com/sonywh1000xm5.jpg",
+    "name": "OPPO A78",
+    "price": 3499000,
+    "category": "Smartphone",
+    "description": "Stylish smartphone with fast charging and impressive camera features",
     "inStock": true
   },
   {
     "id": 4,
-    "name": "MacBook Pro 16",
-    "price": 2499,
-    "category": "Computers",
-    "description": "Powerful laptop for professionals with M2 Pro chip",
-    "image": "https://example.com/macbookpro.jpg",
+    "name": "Vivo Y22",
+    "price": 1999000,
+    "category": "Smartphone",
+    "description": "Entry-level smartphone with large battery capacity and decent performance",
     "inStock": false
   },
   {
     "id": 5,
-    "name": "Kindle Paperwhite",
-    "price": 139,
-    "category": "Reading",
-    "description": "E-reader with front light and weeks of battery life",
-    "image": "https://example.com/kindle.jpg",
+    "name": "Realme Buds Air 3",
+    "price": 899000,
+    "category": "Audio",
+    "description": "Affordable wireless earbuds with active noise cancellation and good battery life",
     "inStock": true
   }
 ]
