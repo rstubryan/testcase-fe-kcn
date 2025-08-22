@@ -12,8 +12,21 @@ import BlogLayout from "@/components/templates/blog/blog-layout";
 
 export const dynamic = "force-static";
 
+export async function generateStaticParams() {
+  return [{}];
+}
+
+export async function generateMetadata() {
+  await getAllBlogs(100);
+  return {
+    title: "Blog Posts",
+    description: "Explore our latest articles and stay updated",
+  };
+}
+
 export default async function BlogsPage() {
-  const posts = await getAllBlogs();
+  const limit = 100;
+  const posts = await getAllBlogs(limit);
 
   return (
     <BlogLayout isLoading={!posts}>
