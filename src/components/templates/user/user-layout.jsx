@@ -40,7 +40,7 @@ export default function UserLayout({ children, isLoading }) {
             Users
           </Typography>
           <Typography variant="secondary" className="max-w-2xl">
-            Browse all available users in the system
+            List user yang difetch dengan SSR dari API
           </Typography>
         </div>
 

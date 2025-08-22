@@ -40,7 +40,7 @@ export default function BlogLayout({ children, isLoading }) {
             Blog Posts
           </Typography>
           <Typography variant="secondary" className="max-w-2xl">
-            Explore our latest articles and stay updated
+            List blog posts yang difetch dari API dengan SSG
           </Typography>
         </div>
 

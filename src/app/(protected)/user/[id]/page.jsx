@@ -2,6 +2,7 @@ import { getUserById } from "@/services/users/api";
 import { Typography } from "@/components/atoms/typography/typography";
 import { Card, CardHeader, CardContent } from "@/components/atoms/card/card";
 import UserDetailLayout from "@/components/templates/user/user-detail-layout";
+import { Badge } from "@/components/atoms/badge/badge";
 
 export const dynamic = "force-dynamic";
 
@@ -16,7 +17,7 @@ export default async function UserDetailPage({ params }) {
             {user.name}
           </Typography>
         </CardHeader>
-        <CardContent className="py-6">
+        <CardContent className="py-2">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <Typography size="h3" className="mb-4">
@@ -27,9 +28,7 @@ export default async function UserDetailPage({ params }) {
                   <Typography variant="secondary" size="sm">
                     Username
                   </Typography>
-                  <Typography className="font-medium">
-                    @{user.username}
-                  </Typography>
+                  <Badge>@{user.username}</Badge>
                 </div>
                 <div>
                   <Typography variant="secondary" size="sm">
