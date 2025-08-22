@@ -5,6 +5,7 @@ import {
   CardHeader,
   CardTitle,
   CardContent,
+  CardDescription,
 } from "@/components/atoms/card/card";
 
 export default function RegisterLayout() {
@@ -15,6 +16,10 @@ export default function RegisterLayout() {
           <Card>
             <CardHeader>
               <CardTitle>Registration Form</CardTitle>
+              <CardDescription>
+                Form sederhana dengan menggunakan useState, menyerupai konsep
+                React Hook Form dan Zod
+              </CardDescription>
             </CardHeader>
             <CardContent>
               <RegisterForm />

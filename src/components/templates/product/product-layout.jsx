@@ -34,7 +34,7 @@ export default function ProductLayout({ children, isLoading }) {
             Products
           </Typography>
           <Typography variant="secondary" className="max-w-2xl">
-            Explore our latest products and offerings
+            List produk yang difetch dari JSON lokal
           </Typography>
         </div>
 

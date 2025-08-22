@@ -17,7 +17,7 @@ export default async function UserDetailPage({ params }) {
             {user.name}
           </Typography>
         </CardHeader>
-        <CardContent className="py-6">
+        <CardContent className="py-2">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <Typography size="h3" className="mb-4">

@@ -1,21 +1,12 @@
 import Link from "next/link";
 
-export default function LandingLayout({
-  links,
-  title,
-  description,
-  footerText,
-}) {
+export default function LandingLayout({ links, title }) {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center w-full max-w-3xl">
         <h1 className="text-4xl font-bold text-center">
           {title || "Next.js Navigation Tasks"}
         </h1>
-        <p className="text-center text-gray-600">
-          {description ||
-            "Click on any task to navigate to the respective page"}
-        </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
           {links.map((link, index) => (
@@ -30,11 +21,6 @@ export default function LandingLayout({
           ))}
         </div>
       </main>
-
-      <footer className="row-start-3 text-center text-sm text-gray-500">
-        {footerText ||
-          "Navigate to any page by clicking on the respective task card"}
-      </footer>
     </div>
   );
 }
